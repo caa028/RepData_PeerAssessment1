@@ -90,7 +90,7 @@ ggplot(data = daily, aes(x = steps)) +
   labs(title = "Number of steps taken each day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
 
 
 ## What is the average daily activity pattern?
@@ -117,7 +117,7 @@ ggplot(data = avgDaily, aes(x = interval, y = steps)) +
   labs(title = "Average daily activity pattern")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
 
 ```r
 # find the most active interval
@@ -205,7 +205,7 @@ ggplot(data = dailyPatched, aes(x = steps)) +
   labs(title = "Number of steps taken each day (imputed data)")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
@@ -235,5 +235,5 @@ ggplot(data = avgDailyEnh, aes(x = interval, y = steps)) +
   labs(title = "Average daily activity pattern")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png)
 

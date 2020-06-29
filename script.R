@@ -24,6 +24,10 @@ daily <- activity %>%
 # show summary of the daily activity (mean, median)
 summary(daily$steps)
 
+# produce the values so that we can use them in markdown text
+activityMean <- mean(daily$steps)
+activityMedian <- median(daily$steps)
+
 # plot a histogram
 ggplot(data = daily, aes(x = steps)) +
   geom_histogram(color="black", fill="white") +
